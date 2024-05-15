@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+  }
+  html {
+    font-family: "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    background-color: black;
+    color: white;
+  }
+  body {
+    margin: 0;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  p,
+  ul,
+  hr {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  img {
+    width: 100%;
+    display: block;
+  }
+  ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  input,
+  button {
+    font-family: inherit;
+    border: none;
+  }
+  input {
+    outline: none;
+  }
+  button {
+    cursor: pointer;
+  }

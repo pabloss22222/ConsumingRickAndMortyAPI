@@ -1,0 +1,45 @@
+.app__header{
+    width: 100vw;
+    height: 4em;
+    font-size: 60px;
+    background-image: url(/images/img02.jpeg);
+    background-size: 6.6em; /*385px*/
+    background-position: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: desplazamiento 30s linear infinite
+}
+h1 {
+
+    font-size: 0.8em;
+    text-align: center;
+}
+
+@keyframes desplazamiento {
+    from { background-position: left; } 
+    to { background-position: right; } 
+}
+
+.app__form{
+    text-align: center;
+    margin-top: 0.8em;
+}
+.app__button{
+    background-color:rgb(48, 96, 116); 
+    font-size: 16px;
+    color: white;
+}
+.app__input{
+    font-size: 16px;
+}
+.card__container {
+    display: flex;
+    justify-content: center;
+    gap: 1.6em;
+    flex-wrap: wrap;
+
+  }
+.app__list__name{
+    text-align: center;
+}

@@ -1,0 +1,35 @@
+.location__div{
+    /* border: 1px solid rgb(31, 192, 171); */
+    display: grid;
+    justify-content: center;  
+}
+
+.location__info {
+    /* border: 1px solid red; */
+    min-width: 20vw;
+    background-color: rgb(31, 192, 171);
+    border-radius:0.8em;
+    margin-top: 0.8em;
+    margin-bottom: 0.8em;
+    margin-left: 0.4em;
+    margin-right: 0.4em;
+
+}
+.location__name {
+    /* border: 1px solid blue; */
+    text-align: center;
+    margin: 0.6em;
+    
+}
+.location__list {
+    display:flex;
+    justify-content: center;
+    gap: 2em;
+    margin-bottom: 0.5em;
+    /* border: 2px solid yellow; */
+   
+}
+.location__item {
+    text-align: center;
+    margin: 0.6em;
+}
