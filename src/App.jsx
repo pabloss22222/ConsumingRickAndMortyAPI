@@ -61,8 +61,8 @@ function App() {
 
   const handleSuggestionClick = (name) => {
     setLocationName(name);
-    getLocationByName(); 
-    setLocationName('');
+    // getLocationByName(); 
+    // setLocationName('');
 
   };
 
@@ -85,6 +85,7 @@ function App() {
           value={locationName}  
           onChange={handleInputChange}  
         />
+        <button className="app__button" type='submit'>Search</button>
       </form> 
       
       {suggestions.length > 0 && (   
